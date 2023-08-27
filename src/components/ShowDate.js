@@ -1,7 +1,7 @@
-import Header from "./Header";
-const ShowDate = () => {
+
+const ShowDate = ({text}) => {
     return (
-        <Header/>
+        <time dateTime = "2023-08-12">{text}</time>
     ) 
   }
    export default ShowDate;
