@@ -3,7 +3,7 @@ const Search = () => {
     return (
       <div>
        <input type='text' placeholder='type text for search'/>;
-    <Button text = "click me"/>
+    <Button color = "red" text = "Search"/>
       </div>
      
     )
