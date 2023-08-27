@@ -1,4 +1,7 @@
 const Button = ({text}) => {
-    return <button>{text}</button>
+    const style = {
+        color:"red"
+    }
+    return <button style = {style}>{text}</button>
   }
    export default Button;
