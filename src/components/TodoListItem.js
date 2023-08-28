@@ -1,10 +1,14 @@
-const TodoListItem = ({text, important}) => {
+const TodoListItem = ( { text, important}) => {
 
   const style = {
-    color: important ? "red" : "black"
+    color: important ? "red": "black"
   }
     return (
-     <li style = {style}>{text}</li>
+      <div>
+       <li style = {style}>{text}</li>
+       
+      </div>
+     
     );
     
   }

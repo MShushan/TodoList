@@ -3,39 +3,21 @@ import ReactDOM from 'react-dom/client';
 import Header from './components/Header'
 import Search from './components/Search'
 import TodoList from './components/TodoList'
-
-import UserListItem from './components/UserListItem';
-
+import Input from './components/Input';
 
 
 
-
-
- const App = () =>{
+  const App = () =>{
+    
   
-  const users = [
-    { name: 'John', age: 25, status: true },
-    { name: 'Bob', age: 30, status: false },
-    { name: 'Tom', age: 20, status: true },
-    { name: 'Sam', age: 28, status: false },
-    { name: 'Ann', age: 24, status: true },
-  ]
-  
-
   return(
     <div>
      <Header/>
      <Search/>
      <TodoList/>
+     <Input/>
      
-     <ul>
-        {
-           users.map(({ name, age, status}) => {
-             return (<UserListItem name = {name} age = {age} status = {status}/>)
-           } )
-        }
-
-      </ul>
+    
     </div>
   )
  }
