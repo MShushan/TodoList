@@ -1,22 +1,25 @@
-import Button from "../Button/Button";
+import './todo-list-item.css'
+import { FaTrash, FaInfo, FaCheck } from "react-icons/fa6";
 
-const TodoListItem = ( { text, important}) => {
+const TodoListItem = ( { text, important } ) => {
 
   const style = {
     color: important ? "red": "black"
   }
     return (
       <div>
-       <li style = {style}>{text}</li>
-      <Button text = "Delete" color = "black"/>
-      <Button text = "important" color = "black"/>
-      <Button text = "Add" color = "black"/>
-
+       <li className='list-item'style = {style}>{text}
+       <span className='item-btns'>
+        <button className='item-btn-done'> <FaCheck/></button>
+        <button className='item-btn-important'><FaInfo/></button>
+        <button className='item-btn-remove'><FaTrash/></button>
        
-       
+        
+        
+       </span>
+       </li>
       </div>
      
     );
-    
   }
    export default TodoListItem;

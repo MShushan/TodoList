@@ -1,10 +1,10 @@
 import './addItem.css'
-import Button from "../Button/Button";
+
 const AddItem = () => {
     return (
-     <div>
-       <input className='addItemInput' type='text' placeholder='add Todo list'/>
-       <Button text = "Add" color = "black"/>
+     <div className='additem'>
+       <input type='text' placeholder='add Todo list'/>
+       <button>Add item</button>
        </div>
     )
     
