@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+
 const TodoListItem = ( { text, important}) => {
 
   const style = {
@@ -6,6 +8,11 @@ const TodoListItem = ( { text, important}) => {
     return (
       <div>
        <li style = {style}>{text}</li>
+      <Button text = "Delete" color = "black"/>
+      <Button text = "important" color = "black"/>
+      <Button text = "Add" color = "black"/>
+
+       
        
       </div>
      

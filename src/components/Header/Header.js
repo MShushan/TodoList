@@ -1,9 +1,9 @@
-
+import './header.css'
 
 const Header = () => {
     return (
-      <div>
-        <h1>Todo lIst</h1>
+      <div className='header'>
+        <h1>Todo list</h1>
         
       </div>
     )
