@@ -1,11 +1,31 @@
 
- .header h1{
+ .header{
+    display: block;
+    background-color: rgb(77, 77, 104);
+    width: 100%;
+ }
+ .header h1 {
+   
     padding: 20px;
     margin: 0;
     border-radius: 5px 5px 0 0;
-    text-align: center;
+    padding-left: 120px;
     text-transform: uppercase;
     background-color: rgb(77, 77, 104);
     color: #fff;
+   
+    
  }
 
+ 
+  .header span{
+   background-color: rgb(77, 77, 104);
+   font-size: 13px;
+   float: right;
+   margin-top: -55px;
+   padding-right: 70px;
+   color: #fff;
+   
+    
+  }
+  
