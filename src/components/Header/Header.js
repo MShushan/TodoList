@@ -5,23 +5,19 @@ import './header.css'
 class Header extends Component{
     
   render(){
+    const { done, important } = this.props
     return(
       <div className='header'>
       <h1 >Todo list </h1>
         <span className='mark-up'>
-          <p>Done:12  Important:34</p>
-        
+          <span className='header-done'>Done:{done}</span>
+          <span className='header-done'>Important:{important}</span>
+         
         </span>
       
-       
-      
-    </div>
-
-    )
-  }
-
-
-
+      </div>
+      )
+    }
 }
 export default Header;
 

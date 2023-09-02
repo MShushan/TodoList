@@ -17,7 +17,7 @@ import './index.css'
     ]
 return(
     <div className='app'>
-     <Header/>
+     <Header done={8} imoprtant={23}/>
      <Search/>
      <TodoList items={items}/>
      <AddItem/>
