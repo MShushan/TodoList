@@ -16,16 +16,19 @@
    
     
  }
+  .header-info{
+   font-size: 12px;
+   font-weight: normal;
+   text-transform: none;
+   display: inline-block;
+   margin-left: 15px;
+  }
 
  
-  .header span{
-   background-color: rgb(77, 77, 104);
-   font-size: 13px;
-   float: right;
-   margin-top: -55px;
-   padding-right: 70px;
-   color: #fff;
+  .header-info span{
    
+   display: inline-block;
+   margin-left: 5px;
     
   }
   
