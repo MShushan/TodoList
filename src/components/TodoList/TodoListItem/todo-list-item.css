@@ -3,12 +3,21 @@
  display: block;
  padding: 7px 10px;
  border-bottom: 1px solid white;
+ clear:both;
+ height: 20px;
 }
  .list-item:first-child{
     border-top: 1px solid rgb(240, 236, 236);
  }
  .list-item:hover{
     background-color: #f8f8f8;
+ }
+ .item-text{
+  display: block;
+  float: left;
+ }
+ .item-text:hover{
+  cursor:pointer;
  }
   .item-btns{
     float: right;
